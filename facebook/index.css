@@ -32,6 +32,7 @@ a {
 
 .form-search {
     float: left;
+    margin:  -3px;
 }
 
 .form-search .input-search {
@@ -44,7 +45,7 @@ a {
 .form-search .btn-search {
     width: 60px; height: 30px; 
     margin-left: -5px; 
-    margin-right: 50px;
+    margin-right: 180px;
     padding: 1px; 
     background-color: #F5F6F7;
 }
@@ -109,7 +110,7 @@ a {
     height: 1000px;
     width: 60%;
     float: left;
-    margin-left: 20%;
+    margin-left: 20.5%;
 }
 
 /* ------------------------------------------------------------------------------------ */
