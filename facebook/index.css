@@ -27,6 +27,7 @@ a {
 .logo-header {
     float: left;
     margin-left: 150px;
+    margin-right: 5px;
 }
 
 .form-search {
@@ -64,17 +65,23 @@ a {
 .menu-header ul li {
     float: left;
     position: relative;
+    border-right: 1px solid #ccc;
 }
 
 .menu-header ul li a {
     text-decoration: none;
-    height: 50px;
-    line-height: 50px;
-    display: block;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
     color: #fff;
     font-weight: bold;
-    padding: 0px 20px;
-    border-right: 1px solid #ccc;
+    padding: 0px 10px;
+    border-radius: 15%;
+}
+
+.menu-header ul li a img{
+    border-radius: 50%;
+    width: 25px;
 }
 
 .menu-header ul li a:hover {
